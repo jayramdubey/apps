@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My_Raipur</string>
+    <array name="arrPIC">
+        <item>@drawable/toilet</item>
+        <item>@drawable/stadium</item>
+        <item>@drawable/park</item>
+    </array>
+    <string name="title_activity_maps1">Map</string>
+</resources>
