@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+xmlns:tools="http://schemas.android.com/tools"
+tools:context="com.example.cg_dte.smart_study.LoginClass">
+<LinearLayout
+    android:orientation="vertical"
+    android:background="#f1dac20c"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerVertical="true"
+    android:layout_centerHorizontal="true"
+    android:id="@+id/linearLayout2">
+
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+
+            android:textSize="25dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="Login_Id:"
+            android:id="@+id/textView7"
+            />
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.8"
+            android:hint=""
+            android:id="@+id/edtUserId"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:textSize="25dp"
+
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="Password:"
+            android:id="@+id/textView8"
+            android:layout_gravity="center_horizontal" />
+
+        <EditText
+            android:inputType="textWebPassword"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1.8"
+            android:id="@+id/edtPass"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        >
+
+        <Button
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_width="120dp"
+
+            android:textSize="25dp"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:id="@+id/BtnLogin"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_marginLeft="10dp"
+            android:textSize="25dp"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="cancel"
+            android:id="@+id/BtnCancel"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+    <Button
+        android:layout_marginTop="10dp"
+        android:textSize="25dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="New_User"
+        android:id="@+id/BtnNewUser" />
+
+</LinearLayout>
+
+
+</RelativeLayout>
